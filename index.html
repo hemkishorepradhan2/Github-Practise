@@ -3,9 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Blog | Home</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        .post {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .post h2 {
+            margin-top: 0;
+            color: #444;
+        }
+        .post p {
+            line-height: 1.6;
+        }
+        .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #333;
+            padding: 8px 15px;
+            border-radius: 4px;
+        }
+        .read-more:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome!</h1>
+
+    <header>
+        <h1>My Blog</h1>
+        <p>Sharing ideas, stories, and tutorials</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="post">
+            <h2>Welcome to My Blog</h2>
+            <p>
+                This is my first blog post. Here I share thoughts, tutorials,
+                and useful information on topics I enjoy.
+            </p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+
+        <div class="post">
+            <h2>Why I Started Blogging</h2>
+            <p>
+                Blogging allows me to express ideas, teach others, and learn
+                new things along the way.
+            </p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+
+        <div class="post">
+            <h2>Upcoming Topics</h2>
+            <p>
+                Stay tuned for posts about web development, design tips,
+                and personal experiences.
+            </p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
